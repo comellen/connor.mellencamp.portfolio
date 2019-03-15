@@ -2,10 +2,20 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Consolas", sans-serif;
+  background: #fff;
 }
 .navbar {
-  background-color: #333;
+  background-color: #657dc4;
   padding: 10px 20px;
+  box-shadow:  0px 1px 3px 0px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14),
+    0px 2px 1px -1px rgba(0, 0, 0, 0.12);
+}
+.navlink {
+  color: #fff;
+}
+.navbar-brand {
+  font-size: 24pt;
 }
 hr {
   margin: 0 auto;
@@ -25,6 +35,10 @@ h1.section-title {
   text-align: center;
   margin-top: 30px;
   margin-bottom: 20px;
+  background-color: #fffdf6;
+  box-shadow:  0px 1px 3px 0px rgba(0, 0, 0, 0.2),
+  0px 1px 1px 0px rgba(0, 0, 0, 0.14),
+  0px 2px 1px -1px rgba(0, 0, 0, 0.12);
 }
 p {
   margin: 0;
@@ -37,10 +51,15 @@ p.section-description {
   margin-bottom: 20px;
   margin-left: auto;
 }
+h1.project-title {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
 h1.project-title:hover {
   text-decoration: underline;
 }
 p.project-text {
+  font-size: 10pt;
   padding: 0 20px 30px 20px;
 }
 hr.divider-section {
@@ -76,7 +95,7 @@ form {
 footer {
   text-align: center;
   font-size: 10pt;
-  background-color: #333;
+  background-color: #657dc4;
   padding: 10px 20px;
   color: #fff;
 }
