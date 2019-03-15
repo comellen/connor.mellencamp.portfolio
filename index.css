@@ -48,16 +48,21 @@ h1.section-title {
   0px 1px 1px 0px rgba(0, 0, 0, 0.14),
   0px 2px 1px -1px rgba(0, 0, 0, 0.12);
 }
+.section-content {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
 p {
   margin: 0;
 }
 p.section-description {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
   padding: 0 20px;
   text-align: center;
-  max-width: 1000px;
-  margin-right: auto;
   margin-bottom: 20px;
-  margin-left: auto;
 }
 h1.project-title {
   padding-top: 10px;
@@ -70,8 +75,8 @@ p.project-text {
   font-size: 10pt;
   padding: 0 20px 30px 20px;
 }
-hr.divider-section {
-  width: 90%;
+hr {
+ margin: 0 auto;
 }
 hr.divider-project {
   width: 50%;
