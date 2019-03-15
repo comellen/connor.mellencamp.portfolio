@@ -21,7 +21,8 @@ body {
   text-decoration: underline;
 }
 .navlinks {
-  padding-left: 20px;
+  padding-left: 8px;
+  font-size: 14pt;
 }
 .navbar-brand {
   color: #fff;
@@ -35,6 +36,8 @@ body {
   border-radius: 50%;
   width: 150px;
   margin-bottom: 10px;
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14),
+  0px 2px 1px -1px rgba(0, 0, 0, 0.12);
 }
 h1 {
   padding: 0 20px;
@@ -70,6 +73,7 @@ p.section-description {
   padding: 0 20px;
   text-align: center;
   margin-bottom: 20px;
+  font-size: 14pt;
 }
 h1.project-title {
   padding-top: 10px;
@@ -79,7 +83,7 @@ h1.project-title:hover {
   text-decoration: underline;
 }
 p.project-text {
-  font-size: 10pt;
+  font-size: 11pt;
   padding: 0 20px 30px 20px;
 }
 hr {
