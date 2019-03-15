@@ -4,11 +4,11 @@ body {
   font-family: 'Consolas', sans-serif;
 }
 .navbar {
-  background-color: #dddddd;
+  background-color: #333;
   margin: 0;
 }
 h1 {
-  padding-left: 30px;
+  padding: 0 20px;
   font-weight: lighter;
   color: black;
 }
@@ -19,20 +19,39 @@ h1.section-title {
   font-size: 35pt;
   padding-left: 20px;
 }
-h1.section-title:hover {
+h1.project-title:hover {
   text-decoration: underline;
 }
 p.section-description{
-  padding-left: 20px;
+  padding: 0 20px;
 }
 p.project-text {
-  padding-left: 30px;
+  padding: 0 20px;
 }
 hr.divider-section {
   width: 90%;
 }
 hr.divider-project {
   width: 50%;
+}
+form {
+  max-width: 600px;
+  padding: 0 20px;
+}
+.form-email {
+  width: 200px;
+  padding: 2px;
+  margin-bottom: 10px;
+}
+.form-message {
+  max-width: 600px;
+  min-width: 350px;
+  padding: 2px;
+  margin-bottom: 10px;
+}
+.form-button {
+  float: right;
+  margin: 0;
 }
 footer {
   text-align: center;
