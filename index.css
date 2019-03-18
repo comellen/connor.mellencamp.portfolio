@@ -5,6 +5,8 @@ body {
   padding: 0;
   font-family: "Roboto", "Consolas", sans-serif;
   background: #fff;
+  height: 100%;
+  width: 100%;
 }
 .navbar {
   background-color: #333;
@@ -50,7 +52,7 @@ a {
   text-decoration: none;
 }
 h1.section-title {
-  font-size: 35pt;
+  font-size: 30pt;
   padding-left: 20px;
   text-align: center;
   margin-bottom: 20px;
@@ -75,9 +77,14 @@ p.section-description {
   margin-bottom: 20px;
   font-size: 12pt;
 }
+.projects {
+  max-width: 760px;
+  margin: 0 auto;
+}
 h1.project-title {
   padding-top: 10px;
   padding-bottom: 10px;
+  font-size: 20pt;
 }
 h1.project-title:hover {
   text-decoration: underline;
@@ -98,6 +105,11 @@ form {
   margin-right: auto;
   margin-bottom: 30px;
   margin-left: auto;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
 }
 .form-content-wrapper {
   margin-right: auto;
@@ -120,15 +132,17 @@ footer {
   background-color: #333;
   padding: 10px 20px;
   color: #fff;
-  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
 }
 .contact-icons {
-  margin: 0 auto;
+  margin: 0;
   max-width: 300px;
-  display: flex;
-  justify-content: space-evenly;
 }
 .contact-icon {
   height: 30px;
-  padding: 0 5px;
+  padding: 0 20px;
 }
