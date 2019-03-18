@@ -71,9 +71,9 @@ p.section-description {
   margin-left: auto;
   margin-right: auto;
   padding: 0 20px;
-  text-align: center;
+  text-align: justify;
   margin-bottom: 20px;
-  font-size: 14pt;
+  font-size: 12pt;
 }
 h1.project-title {
   padding-top: 10px;
