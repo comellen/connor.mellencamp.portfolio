@@ -24,6 +24,7 @@ body {
 }
 .navlinks {
   font-size: 15pt;
+  padding-left: 1px;
 }
 .navbar-brand {
   color: #fff;
